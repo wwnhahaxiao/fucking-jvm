@@ -3,7 +3,10 @@ package com.roshan.jvm;
 import java.util.ArrayList;
 import java.util.List;
 
-//VM args: -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=dumpFiles
+/**
+ * 堆内存溢出异常测试
+ * VM args: -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=dumpFiles
+ */
 public class HeapOOM {
     static class OOMObject {
 
